@@ -1,0 +1,25 @@
+terms_of_use.admin_config:
+  path: '/admin/config/people/terms-of-use'
+  defaults:
+    _form: '\Drupal\terms_of_use\Form\termsofUseConfigForm'
+    _title: 'Terms of Use Configuration'
+  requirements:
+    _permission: 'administer terms of use configuration'
+
+terms_of_use.autocomplete:
+  path: '/terms_of_use/autocomplete'
+  defaults:
+    _controller: '\Drupal\terms_of_use\Controller\termsofUseController::autocomplete'
+    _title: 'Autocomplete node title'
+  requirements:
+    _permission: 'access content'
+
+
+
+#terms_of_use.settings:
+#  path: '/admin/structure/terms_of_use/settings'
+#  defaults:
+#    _form: '\Drupal\terms_of_use\Form\HelloSettingsForm'
+#    _title: 'Hello'
+#  requirements:
+#    _permission: 'administer site configuration'

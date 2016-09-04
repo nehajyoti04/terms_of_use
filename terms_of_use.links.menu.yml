@@ -1,0 +1,12 @@
+terms_of_use.admin_config:
+  title: 'Terms of Use'
+  parent: user.admin_index
+  description: 'Add Terms of Use to the registration page.'
+#  weight: -9
+  route_name: terms_of_use.admin_config
+
+terms_of_use.autocomplete:
+  title: 'Terms of Use Configuration'
+#  parent: system.admin_structure
+  description: 'Add Terms of Use to the registration page.'
+  route_name: terms_of_use.autocomplete

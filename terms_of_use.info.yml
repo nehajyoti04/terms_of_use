@@ -1,0 +1,13 @@
+name: Terms of Use
+type: module
+description: 'Adds terms of Use to the registration page.'
+package: Custom
+# version: VERSION
+# core: 8.x
+configure: terms_of_use.admin_config
+
+# Information added by Drupal.org packaging script on 2016-01-29
+version: '8.0.2+50-dev'
+core: '8.x'
+project: 'drupal'
+datestamp: 1454074708
